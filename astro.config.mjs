@@ -12,6 +12,7 @@ export default defineConfig({
     accessToken: env.STORYBLOK_TOKEN,
     components: {
       page: 'storyblok/Page',
+      config: 'storyblok/Config',
       feature: 'storyblok/Feature',
       grid: 'storyblok/Grid',
       teaser: 'storyblok/Teaser',
@@ -27,4 +28,5 @@ export default defineConfig({
       https: true,
     },
   },
+  // output: 'server'
 });
