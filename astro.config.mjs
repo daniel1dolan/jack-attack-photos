@@ -28,5 +28,5 @@ export default defineConfig({
       https: true,
     },
   },
-  // output: 'server'
+  output: 'server'
 });
