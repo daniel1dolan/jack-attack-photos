@@ -16,6 +16,7 @@ export default defineConfig({
       feature: 'storyblok/Feature',
       grid: 'storyblok/Grid',
       teaser: 'storyblok/Teaser',
+      hero: 'storyblok/Hero',
     },
     apiOptions: {
       // Choose your Storyblok space region
@@ -27,6 +28,5 @@ export default defineConfig({
     server: {
       https: true,
     },
-  },
-  output: 'server'
+  }
 });
